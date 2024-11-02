@@ -1,0 +1,49 @@
+body {
+  font-family: arial;
+}
+
+div {
+  /* display: inline; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header h1{}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bigblock {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10 10 10 10;
+  /*width: 30%*/
+}
+
+.fullwidthblock {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10 50 10 50;
+  /*width: 30%*/
+}
+
+
+.main .listing {
+  font-family: Courier New;
+}
+
+@media only screen and (max-width: 768px)
+body {
+  font-size: 2em;
+  line-height: 2em;
+}
